@@ -5,5 +5,5 @@
  I have made this with the help of HTML, CSS & Javascript.
  <br>
  <br>
- <image src="clock.jpg" alt="" width="700px">
+ <image src="img/clock.jpg" alt="" width="700px">
  

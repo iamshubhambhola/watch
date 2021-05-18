@@ -3,7 +3,7 @@
     padding: 0%;
 }
 main{
-    background: linear-gradient(to right, rgb(126, 17, 177),rgb(224, 73, 224));
+    background: linear-gradient(to right, rgb(63, 12, 182),rgb(129, 94, 223));
     width: 100vw;
     height: 100vh; 
     position: fixed; 
@@ -17,7 +17,10 @@ main{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-color: rgb(253, 163, 45);  
+    background-image: url("../img/watch.png"); 
+    background-repeat: no-repeat;
+    background-size: 50vmin;
+    background-color: rgb(139, 168, 146);  
     border: 20px solid;
     border-style: inset;
     border-color: rgba(163, 143, 182,0.7);
@@ -36,21 +39,21 @@ main{
     transition-timing-function: cubic-bezier(0.1, 2.62, 0.58, 1);
 }
 .hr-hand{
-    width: 18vmin;
+    width: 15.5vmin;
     height: 9px;
-    background-color: rgb(57, 11, 100);
+    background-color: rgb(254, 253, 255);
     border-radius: 10px; 
     z-index: 1.5;    
 }
 .min-hand{
-    width: 24vmin;
+    width: 19vmin;
     height: 9px;
-    background-color: rgb(57, 11, 100);
+    background-color: rgb(242, 239, 243);
     border-radius: 10px;    
     z-index: 1.4;   
 }
 .sec-hand{
-    width: 24vmin;
+    width: 20vmin;
     height: 5px;
     background-color: rgb(199, 6, 103);
     border-radius: 10px;   
@@ -59,8 +62,8 @@ main{
 .mpt{
      width: 2vmin;
      height: 2vmin;
-     background-color: rgb(238, 16, 16);
-     border: 4px outset rgba(252, 118, 118,0.7);
+     background-color: rgb(115, 255, 133);
+     border: 4px outset rgba(118, 252, 189, 0.7);
      border-radius: 2vmin;
      margin: auto;
      margin-top: 24vmin;
